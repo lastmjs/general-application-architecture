@@ -1,4 +1,4 @@
-# general-application-architecture
+# A General Application Architecture
 
 These are my thoughts on the major pieces of a well-architected software application. This will grow and be refined over time, with greater explanations and links to resources that offer justification and insight.
 
@@ -34,7 +34,7 @@ Functions that dispatch actions on the application store. Any side-effects neede
 
 ### Components
 
-
+Collections of functions and local mutable state. Components receive side-causes from the universe and cause side-effects in the universe.
 
 TODO
 - [ ] Explain the concept of a store in more detail. Make Redux a suggestion on one implementation of that kind of store.
