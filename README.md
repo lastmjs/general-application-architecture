@@ -41,3 +41,4 @@ TODO
 - [ ] Fill out each explanation more fully.
 - [ ] Go over the explanations with friends and see what does and does not make sense
 - [ ] Finis the diagram: https://www.draw.io/#G0B2XvotCal76YWDlrb1N4eXRLZ28
+- [ ] Turn this into a beautiful website by using one of those static site generator things. Find the best one for software documentation
