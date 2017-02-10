@@ -34,7 +34,7 @@ Functions that dispatch actions on the application store. Any side-effects neede
 
 ### Components
 
-Collections of functions and local mutable state. Components receive side-causes from the universe and cause side-effects in the universe.
+Collections of functions and local mutable state. Components receive side-causes from the universe and cause side-effects in the universe. Components are the edges of the application. They are the interface to the universe. Events from the universe are received, then appropriate services or actions are invoked, usually causing the application state to change. All components update their corresponding local state in synchronization with the application state.
 
 TODO
 - [ ] Explain the concept of a store in more detail. Make Redux a suggestion on one implementation of that kind of store.
