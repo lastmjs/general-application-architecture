@@ -40,3 +40,4 @@ TODO
 - [ ] Explain the concept of a store in more detail. Make Redux a suggestion on one implementation of that kind of store.
 - [ ] Fill out each explanation more fully.
 - [ ] Go over the explanations with friends and see what does and does not make sense
+- [ ] Finis the diagram: https://www.draw.io/#G0B2XvotCal76YWDlrb1N4eXRLZ28
