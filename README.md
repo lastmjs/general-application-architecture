@@ -43,3 +43,4 @@ TODO
 - [ ] Finish the diagram: https://www.draw.io/#G0B2XvotCal76YWDlrb1N4eXRLZ28
 - [ ] Turn this into a beautiful website by using one of those static site generator things. Find the best one for software documentation
 - [ ] Explain the use of the observer pattern or functional reactive patterns like Observables or RXJs to synchronize state in the components section
+- [ ] Explain that in general Actions have as their purpose causing side-effects to the global application state in some way. Services however, even if they are impure (side-effects or side-causes within them, such as generating dates, random numbers, accessing databases), do not have as their end to change the application state. They do not mutate the application state. They are services to be used by the actions or components to help construct the data that will be used to change the application state.
