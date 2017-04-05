@@ -18,19 +18,19 @@ Collections of functions.
 
 ### Pure Services
 
-Modules that perform a variety of pure computations (numeric calculations, data transformations, etc).
+Modules that perform a variety of pure computations (numeric calculations, data transformations, etc). Pure services do not change application state alone. Action creators may use services to prepare the changes that will eventually be applied to the application state.
 
 ### Impure Services
 
-Modules that perform a variety of impure computations (filesystem access, database access, network requests, etc).
+Modules that perform a variety of impure computations (filesystem access, database access, network requests, etc). Impure services do not change application state alone. Action creators may use services to prepare the changes that will eventually be applied to the application state.
 
 ### Actions
 
-Plain data objects that describe intents to mutate the application state, with the necessary data to perform the mutation.
+Plain data objects that describe intents to mutate the application state, with the necessary data to perform the mutation. Actions change application state.
 
 ### Action Creators
 
-Functions that dispatch actions on the application store. Any side-effects needed to create an action can be performed here.
+Functions that dispatch actions on the application store. Any side-effects needed to create an action can be performed here. Action creators usually end up changing application state.
 
 ### Components
 
